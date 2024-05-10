@@ -1,5 +1,5 @@
 import express, {Application} from "express"
-import transactionRoutes from "../src/routes/transactions.routes"
+import transactionRoutes from "./Transactions/routes/transactions.routes"
 const app: Application = express();
 
 app.use(express.json())
